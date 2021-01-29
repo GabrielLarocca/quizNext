@@ -4,7 +4,7 @@ import React from 'react';
 
 function Logo() {
   return (
-    <svg id="Capa_1" enableBackground="new 0 0 512 512" height="100" viewBox="0 0 1200 512" width="512" xmlns="http://www.w3.org/2000/svg">
+    <svg id="Capa_1" enableBackground="new 0 0 512 512" height="100" viewBox="0 0 100 512" width="280" xmlns="http://www.w3.org/2000/svg">
       <path d="m374.073 7.5h-343.077c-12.86 0-23.285 10.425-23.285 23.285v450.43c0 12.86 10.425 23.285 23.285 23.285h343.076c12.86 0 23.285-10.425 23.285-23.285v-450.43c.001-12.86-10.424-23.285-23.284-23.285z" fill="#efe7e4" />
       <circle cx="95.72" cy="130.421" fill="#b1e4f9" r="40.398" />
       <circle cx="202.535" cy="130.421" fill="#b1e4f9" r="40.398" />
