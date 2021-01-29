@@ -24,16 +24,16 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>
-          Quiz - Modelo Base
+          Quiz
         </title>
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
-          <Widget.Header><h1>The legend of gabs</h1></Widget.Header>
+          <Widget.Header><h1>Quiz Diversificado</h1></Widget.Header>
           <Widget.Content>
-            <h1>O jogo</h1>
-            <p>Perdeu doido.</p>
+            <h1>Para conhecimentos aleatórios</h1>
+            <p>Sobre conhecimentos diversificados.</p>
           </Widget.Content>
         </Widget>
         <Widget>
@@ -50,7 +50,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GithubCorner />
+      <GithubCorner projectUrl="https://github.com/GabrielLarocca/quizNext" />
     </QuizBackground>
   );
 }

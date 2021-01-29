@@ -1,10 +1,10 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+    "bg": "https://wallpaperaccess.com/full/2384069.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif",
         "title": "Como fazer um seletor por id via CSS?",
         "description": "Esta simples!",
         "answer": 2,
@@ -16,7 +16,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif",
         "title": "Como fazer um background gradiente com css?",
         "description": "",
         "answer": 0,
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media1.tenor.com/images/23db408befe761df3304e260f5544699/tenor.gif?itemid=19238575",
         "title": "Quantos animais de cada especie Moisés levou para a arca?",
         "description": "",
         "answer": 0,
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media4.giphy.com/media/3o7bufYiyXnHIgT5wA/giphy.gif",
         "title": "Em que ano foi iniciada a 1º Guerra Mundial?",
         "description": "",
         "answer": 1,
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://thumbs.gfycat.com/AgonizingRaggedAmericanredsquirrel-small.gif",
         "title": "Em que ano terminou a 1º Guerra Mundial?",
         "description": "",
         "answer": 2,
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media1.tenor.com/images/fb3f2d1e814190100a4ae401b1660d5b/tenor.gif?itemid=6081931",
         "title": "Qual e o único numero primo que é par?",
         "description": "",
         "answer": 0,
@@ -75,7 +75,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media1.tenor.com/images/5d64d700c55a86f4564a3bfc9047c13e/tenor.gif?itemid=12951225",
         "title": "Quantos nomes tinha D. Pedro I?",
         "description": "",
         "answer": 2,
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media1.tenor.com/images/dde2dcbbc2da9725de233acea97c0202/tenor.gif?itemid=7282679",
         "title": "Quantos nomes tinha D. Pedro II?",
         "description": "",
         "answer": 0,
