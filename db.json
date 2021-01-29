@@ -6,7 +6,7 @@
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
         "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "description": "Esta simples!",
         "answer": 2,
         "alternatives": [
           ".elemento",
@@ -18,11 +18,84 @@
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
         "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "description": "",
         "answer": 0,
         "alternatives": [
            "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "background: gradient(#e66465, #9198e5);",
+           "gradient: #e66465, #9198e5"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Quantos animais de cada especie Moisés levou para a arca?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Em que ano foi iniciada a 1º Guerra Mundial?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "1924",
+          "1914",
+          "1918",
+          "1964"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Em que ano terminou a 1º Guerra Mundial?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+          "1924",
+          "1914",
+          "1918",
+          "1964"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Qual e o único numero primo que é par?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Quantos nomes tinha D. Pedro I?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+          "22",
+          "10",
+          "18",
+          "24"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Quantos nomes tinha D. Pedro II?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+          "10",
+          "12",
+          "20",
+          "30"
         ]
       }
     ],

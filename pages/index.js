@@ -1,39 +1,36 @@
-import styled from "styled-components";
-import db from "../db.json";
-import Widget from "../src/components/WIdget";
-import Footer from "../src/components/Footer";
-import GithubCorner from "../src/components/GitHubCorner";
-import QuizBackground from "../src/components/QuizBackground";
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
-
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+import db from '../db.json';
+import Widget from '../src/components/WIdget';
+import Footer from '../src/components/Footer';
+import GithubCorner from '../src/components/GitHubCorner';
+import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+import QuizContainer from '../src/components/QuizContainer';
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = useState('');
+
+  function enviar(e) {
+    e.preventDefault();
+    router.push(`/quiz?name=${name}`);
+  }
+
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>
+          Quiz - Modelo Base
+        </title>
+      </Head>
       <QuizContainer>
+        <QuizLogo />
         <Widget>
-          <Widget.Header>The legend of gabs</Widget.Header>
+          <Widget.Header><h1>The legend of gabs</h1></Widget.Header>
           <Widget.Content>
             <h1>O jogo</h1>
             <p>Perdeu doido.</p>
@@ -41,13 +38,19 @@ export default function Home() {
         </Widget>
         <Widget>
           <Widget.Content>
-            <h1>O jogo</h1>
-            <p>Perdeu doido.</p>
+            <form onSubmit={(e) => enviar(e)}>
+              <Input placeholder="Nome" onChange={(e) => setName(e.target.value)} />
+              <Button type="submit" className="main" disabled={name.length === 0}>
+                Jogar
+                {' '}
+                {name}
+              </Button>
+            </form>
           </Widget.Content>
         </Widget>
-        <Footer/>
+        <Footer />
       </QuizContainer>
-      <GithubCorner/>
+      <GithubCorner />
     </QuizBackground>
   );
 }
